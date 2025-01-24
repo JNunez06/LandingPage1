@@ -3,14 +3,14 @@
 # abrir
 cd react-vite-landing-page
 
-# install dependencies
+# install dependencias
 npm install
 
 
-# start the application
+# iniciar
 npm run dev
 
-# make a production build
+# Realizar una compilación de producción
 npm run build
 ```
 
