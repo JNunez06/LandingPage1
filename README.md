@@ -1,6 +1,6 @@
-## To Run
+## Ejecutar
 
-# open the project directory
+# abrir
 cd react-vite-landing-page
 
 # install dependencies
