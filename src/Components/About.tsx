@@ -22,9 +22,9 @@ export function About()
             </Col>
             <Col xs={12}  md={6} >
               <div className="about-text">
-                <h2>About Us</h2>
+                <h2>Acerca de</h2>
                 <p>{JsonData?JsonData.About.paragraph : "loading..."}</p>
-                <h3>Why Choose Us?</h3>
+                <h3>¿Por qué elegirnos?</h3>
                 <div className="list-style">
                 <Row>
                   <Col lg={6} sm={6}  xs={12}>

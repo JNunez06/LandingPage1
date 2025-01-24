@@ -9,7 +9,7 @@ export function Team()
     <div id='team' className='text-center'>
       <Container>
         <Col md={{span:8, offset:2}} className=' section-title'>
-          <h2>Meet the Team</h2>
+          <h2>CONOCE AL EQUIPO</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.

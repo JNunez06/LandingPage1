@@ -46,10 +46,9 @@ export function Contact()
             <Col md={8}>
                <Row>
                 <div className='section-title'>
-                  <h2>Get In Touch</h2>
+                  <h2>Contáctenos</h2>
                   <p>
-                    Please fill out the form below to send us an email and we will
-                    get back to you as soon as possible.
+                  Por favor, rellene el siguiente formulario para enviarnos un correo electrónico y nos pondremos en contacto con usted lo antes posible.
                   </p>
                 </div>
                 <Form onSubmit={handleSubmit} id="myForm">
@@ -60,7 +59,7 @@ export function Contact()
                            <Form.Control
                                 type="text"
                                 name="name"
-                                placeholder="Name"
+                                placeholder="Nombre"
                                 required
 								value={name}
                                 onChange={handleChange}
@@ -171,9 +170,9 @@ export function Contact()
       <div id='footer'>
           <div className='container text-center'>
             <p>
-              &copy; 2022 Sebastião Lucio React Land Page Template. Design by{' '}
-              <a href='https://github.com/rio3dstudios' rel='nofollow'>
-                Rio 3D Studios
+              &copy; 2025 Tingo María-Perú. Diseño {' '}
+              <a href='https://www.facebook.com/jeinernunezsamame' rel='nofollow'>
+                Propio.
               </a>
             </p>
           </div>

@@ -22,7 +22,7 @@ export function Features()
               <br></br>
               <br></br>
               <br></br>
-            <p> <h2>Features</h2> </p>
+            <p> <h2>Caracteristicas</h2> </p>
             </Col>
          
 

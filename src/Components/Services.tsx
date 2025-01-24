@@ -12,10 +12,9 @@ export function Services()
         <div id='services' className='text-center'>
         <Container>
           <div className='section-title'>
-            <h2>Our Services</h2>
+            <h2>Nuestros Servicios</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              DevPro ofrece servicios en desarrollo y diseño de aplicaciones web y móviles, marketing digital, diseño gráfico y más.
             </p>
           </div>
           <Row>

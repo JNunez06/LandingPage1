@@ -20,7 +20,7 @@ export function Home()
                     href='#features'
                     className='btn btn-custom btn-lg page-scroll'
                   >
-                    Learn More
+                    Más información
                   </a>{' '}
                 </Col>
               </Row>

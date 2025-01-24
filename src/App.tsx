@@ -8,29 +8,22 @@ import { Home } from './Components/Home';
 import { About } from './Components/About';
 import { Contact } from './Components/Contact';
 import { Features } from './Components/Features';
+import { Services } from './Components/Services';
 import { Gallery } from './Components/Gallery';
 import { Testimonials } from './Components/Testimonials';
 import { Team } from './Components/Team';
-import { Services } from './Components/Services';
-
-
-
-
+import { Wbtn } from './Components/Wbtn';
 
 function App() {
 
+  const [pageData, setPageData] = useState({});
 
-  const [pageData, setPageData] = useState({});//pageData== vetor, 
-                                              // setPageData == funcão para carregar o vetor
-
-  useEffect(() => {//recebe como primeiro parâmetro uma função 
-                   // que será executada assim que o componente renderizar.
+  useEffect(() => {
     setPageData(JsonData);
   }, []);
  
   return (
-   
-    <div>
+    <div className="App">
       <Navigation/>
       <Home />
       <Features />
@@ -40,16 +33,8 @@ function App() {
       <Testimonials/>
       <Team />
       <Contact />
-      
-
-
+      <Wbtn />
     </div>
-    
-    
-
-
-
-   
   )
 }
 

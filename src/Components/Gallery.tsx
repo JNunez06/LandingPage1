@@ -12,10 +12,9 @@ export function Gallery()
      <div id='portfolio' className='text-center'>
         <Container>
           <div className='section-title'>
-            <h2>Gallery</h2>
+            <h2>Galeria</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+             Imagenes de Referencias.
             </p>
           </div>
         

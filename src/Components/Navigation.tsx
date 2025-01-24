@@ -24,37 +24,37 @@ export function Navigation()
 
   <Navbar  collapseOnSelect fixed = 'top' expand='sm' className='navbar-default '>
     <Container>
-        <Navbar.Brand >React Landing Page</Navbar.Brand>
+        <Navbar.Brand >DevPro</Navbar.Brand>
         <Navbar.Toggle className='navbar-toggle' aria-controls ='responsive-navbar-nav' />
 
         <Navbar.Collapse id = 'responsive-navbar-nav'   className="justify-content-end" >
          <Nav defaultActiveKey="/" as="ul">
          <Nav.Item>
-           <Nav.Link href="#home" className="nav-links" >Home</Nav.Link>
+           <Nav.Link href="#home" className="nav-links" >Inicio</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href="#features"  className="nav-links" >Features</Nav.Link>
+           <Nav.Link href="#features"  className="nav-links" >Características</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href="#services" className="nav-links" >Services</Nav.Link>
+           <Nav.Link href="#services" className="nav-links" >Servicios</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href='#about'  className="nav-links" >About</Nav.Link>
+           <Nav.Link href='#about'  className="nav-links" >Acerca de</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href='#portfolio'  className="nav-links" >Gallery</Nav.Link>
+           <Nav.Link href='#portfolio'  className="nav-links" >Galería</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href='#testimonials'  className="nav-links" >Testimonials</Nav.Link>
+           <Nav.Link href='#testimonials'  className="nav-links" >Testimonios</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href='#team'  className="nav-links" >Team</Nav.Link>
+           <Nav.Link href='#team'  className="nav-links" >Equipo</Nav.Link>
          </Nav.Item>
          <Nav.Item>
-           <Nav.Link href="#contact"  className="nav-links" >Contact</Nav.Link>
+           <Nav.Link href="#contact"  className="nav-links" >Contactanos</Nav.Link>
          </Nav.Item>
-        
-       
+         
+               
          </Nav>
         </Navbar.Collapse>
     
