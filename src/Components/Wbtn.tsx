@@ -1,5 +1,6 @@
 import React from "react";
 import { FiMessageCircle } from "react-icons/fi"; // Asegúrate de instalar react-icons
+export {};  // Esto hace que TypeScript lo trate como un módulo
 
 export const Wbtn = () => {
   return (
